@@ -1,101 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43" started-at="2021-09-20T17:25:18 EDT" finished-at="2021-09-20T17:25:18 EDT">
+  <suite name="Automation Test Suite" duration-ms="23858" started-at="2021-09-29T21:08:29 EDT" finished-at="2021-09-29T21:08:53 EDT">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.runner.file.ScenariRunner@4c15e7fd]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="43" started-at="2021-09-20T17:25:18 EDT" finished-at="2021-09-20T17:25:18 EDT">
-      <class name="com.usa.testNG.TestNgParameterExample">
-        <test-method status="FAIL" signature="t1(java.lang.String)[pri:0, instance:com.usa.testNG.TestNgParameterExample@8909f18]" name="t1" duration-ms="0" started-at="2021-09-20T17:25:18 EDT" finished-at="2021-09-20T17:25:18 EDT">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'exampleDesc' is required by @Test on method t1 but has not been marked @Optional or defined
-in /private/var/folders/7z/8pj9qbgs7z12gcn6dd0klwtc0000gn/T/testng-eclipse-885283243/testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'exampleDesc' is required by @Test on method t1 but has not been marked @Optional or defined
-in /private/var/folders/7z/8pj9qbgs7z12gcn6dd0klwtc0000gn/T/testng-eclipse-885283243/testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+    <test name="PMCS Login test" duration-ms="23858" started-at="2021-09-29T21:08:29 EDT" finished-at="2021-09-29T21:08:53 EDT">
+      <class name="com.usa.runner.file.ScenariRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.usa.runner.file.ScenariRunner@4c15e7fd]" name="setUpClass" is-config="true" duration-ms="291" started-at="2021-09-29T21:08:29 EDT" finished-at="2021-09-29T21:08:30 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- t1 -->
-        <test-method status="FAIL" signature="t2(java.lang.String)[pri:0, instance:com.usa.testNG.TestNgParameterExample@8909f18]" name="t2" duration-ms="0" started-at="2021-09-20T17:25:18 EDT" finished-at="2021-09-20T17:25:18 EDT">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'exampleDesc' is required by @Test on method t2 but has not been marked @Optional or defined
-in /private/var/folders/7z/8pj9qbgs7z12gcn6dd0klwtc0000gn/T/testng-eclipse-885283243/testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'exampleDesc' is required by @Test on method t2 but has not been marked @Optional or defined
-in /private/var/folders/7z/8pj9qbgs7z12gcn6dd0klwtc0000gn/T/testng-eclipse-885283243/testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
-at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
-at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
-at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1259)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.usa.runner.file.ScenariRunner@4c15e7fd]" name="feature" duration-ms="23160" started-at="2021-09-29T21:08:30 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-09-29T21:08:53 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login function validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.usa.runner.file.ScenariRunner@4c15e7fd]" name="tearDownClass" is-config="true" duration-ms="13" started-at="2021-09-29T21:08:53 EDT" finished-at="2021-09-29T21:08:53 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- t2 -->
-      </class> <!-- com.usa.testNG.TestNgParameterExample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.usa.runner.file.ScenariRunner -->
+    </test> <!-- PMCS Login test -->
+  </suite> <!-- Automation Test Suite -->
 </testng-results>

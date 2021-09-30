@@ -531,3 +531,10 @@
 2021-09-18 23:42:14,187 [main] INFO PMCS - ******** Click on logout link*********
 2021-09-18 23:42:19,612 [main] INFO PMCS - ******** Login Passed*********
 2021-09-18 23:42:22,622 [main] INFO PMCS - ********closing browser********
+2021-09-29 21:08:30,324 [main] INFO PMCS - ******** I am a chrome browser*********
+2021-09-29 21:08:36,309 [main] INFO PMCS - ******** Opening URL*********
+2021-09-29 21:08:37,032 [main] INFO PMCS - ******** Providing login details*********
+2021-09-29 21:08:37,381 [main] INFO PMCS - ******** started login*********
+2021-09-29 21:08:46,431 [main] INFO PMCS - ******** Click on logout link*********
+2021-09-29 21:08:50,204 [main] INFO PMCS - ******** Login Passed*********
+2021-09-29 21:08:53,212 [main] INFO PMCS - ********closing browser********
